@@ -14,11 +14,16 @@ The initial code delivered to Steve looked at 12 green-energy tickers by looping
 
 2017 was a better year for green energy stocks than 2018.  (See images below.) Of the 12 green energy tickers analyzed, 11 had a positive return in 2017 where only 2 had positive returns in 2018.  Steve’s green-passionate parents currently only hold DAQO stock, which had a negative return in 2018 despite strong performance in 2017.  Steve should advise that his parents diversify to various types technology within the green energy sector, but also into other green industries as well.  It should be noted that two years of data is not enough to observe trends. 
 
-Images: 2017 and 2018 POST-refactored 
+Image: 2017 and 2018 POST-refactored data and performance times
+<img width="484" alt="VBA_Challenge_2017_Post-Refactored_Timer" src="https://user-images.githubusercontent.com/93740725/148283746-82a54c95-06e6-420a-9be4-f25d57037065.png">
+<img width="468" alt="VBA_Challenge_2018_Post-Refactored_Timer" src="https://user-images.githubusercontent.com/93740725/148283754-dea222ec-167f-465f-8376-2eb9f5c5d8ee.png">
+
 
 The good news is, the refactored code will help Steve identify other green industries with consistent YOY performance because the new code significantly cut down on run time!
 
 Image: Runtime Summary Table
+
+<img width="251" alt="VBA_Challenge_Run_Time_Summary_Table" src="https://user-images.githubusercontent.com/93740725/148283817-58f2679a-a7f7-4e9a-ba2a-993bb11a8ae6.png">
 
 Instead of repeating the for loop 12x, all data was collected into output arrays in one pass.  This resulted in 6 to 7 times faster performance. 
 
